@@ -523,8 +523,8 @@ footer .logo {
     }
     
     header .logo {
-        display: block; /* Garantir que o logo permaneça visível */
-        font-size: 1.5em; /* Tamanho reduzido para telas menores */
+        display: block;
+        font-size: 1.5em;
     }
     
     header nav ul {
@@ -535,19 +535,17 @@ footer .logo {
         display: none;
     }
     
-    /* Correção para o menu toggle fixo */
     .menu-mobile-toggle {
         display: flex;
-        position: fixed; /* Voltando para fixed para ficar junto com o header */
+        position: fixed;
         top: 10px;
         right: 20px;
-        z-index: 1002; /* Garantir que fique acima de outros elementos */
+        z-index: 1002;
     }
     
-    /* Correção para o background do hero em telas menores */
     #hero {
         padding-top: 80px;
-        height: 80vh; /* Aumentando a altura para preencher melhor */
+        height: 80vh;
         background-size: cover;
         background-position: center;
     }
@@ -562,7 +560,6 @@ footer .logo {
         margin-bottom: 20px;
     }
     
-    /* Correção para os h3 colados nas bordas */
     #services h3, 
     #projetos h3, 
     #depoimentos h3, 
@@ -572,7 +569,7 @@ footer .logo {
     }
     
     #services, #sobre, #projetos, #depoimentos, #contato {
-        padding: 60px 15px; /* Adicionando padding horizontal */
+        padding: 60px 15px;
     }
     
     #services #cards, .projetos-grid, .depoimentos-grid, .contato-methods {
@@ -583,7 +580,6 @@ footer .logo {
         grid-template-columns: 1fr;
     }
     
-    /* Ajuste para o sobre em telas menores */
     #sobre {
         padding: 60px 15px;
     }
