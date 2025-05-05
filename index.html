@@ -1,81 +1,248 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=chevron_right" />
-    <link rel="stylesheet" href="./style.css">
-</head>
-<body>
-    <header>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio de Desenvolvimento</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <header>
         <nav>
-            <img src="logo.png" alt="">
+            <div class="logo">
+                <i class="fas fa-code"></i>
+            </div>
             <ul>
-                <li>Inicio</li>
-                <li>Serviços</li>
-                <li>Sobre mim</li>
-                <li>Contato</li>
+                <li><a href="#hero">Inicio</a></li>
+                <li><a href="#services">Serviços</a></li>
+                <li><a href="#sobre">Sobre mim</a></li>
+                <li><a href="#contato">Contato</a></li>
             </ul>
         </nav>
-        <a href="#" class="btn">Saiba Mais</a>
+        <a href="#contato" class="btn">Contato</a>
     </header>
+    
+    <!-- Menu Hamburguer -->
+    <div class="menu-mobile-toggle">
+        <i class="fas fa-bars"></i>
+    </div>
 
     <section id="hero">
         <h1>Desenvolvimento de Software</h1>
         <h2>Transformo ideias em soluções digitais eficientes, utilizando as mais recentes tecnologias de programação.</h2>
-        <a href="#" class="btn white">Saiba Mais</a>
+        <a href="#services" class="btn white">Saiba Mais</a>
     </section>
 
+    <!-- WhatsApp Button -->
+    <a href="#" class="whatsapp-btn">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
     <section id="services">
-        <h3>Descubra os Pincipais Serviços</h3>
+        <h3>Descubra os principais serviços que ofereço como desenvolvedor de software.</h3>
         <div id="cards">
             <div class="card">
-                <img src="https://img.freepik.com/free-vector/background-realistic-abstract-technology-particle_23-2148431735.jpg?semt=ais_hybrid&w=740" alt="">
+                <img src="https://img.freepik.com/free-vector/background-realistic-abstract-technology-particle_23-2148431735.jpg?semt=ais_hybrid&w=740" alt="Desenvolvimento de Aplicativos">
                 <div class="card-content">
-                    <h4>Desenvolvimento de Aplicativos.</h4>
-                    <p>Transformo suas ideias em aplicativos funcionais.</p>
+                    <h4>Desenvolvimento de Aplicativos Móveis para Android e iOS</h4>
+                    <p>Transformo suas ideias em aplicativos funcionais e inovadores.</p>
                     <a href="#">
                         Saiba mais 
-                        <span class="material-symbols-outlined">
-                        chevron_right
-                        </span>
+                        <i class="fas fa-chevron-right"></i>
                     </a>
                 </div>
             </div>
             <div class="card">
-                <img src="https://img.freepik.com/free-vector/background-realistic-abstract-technology-particle_23-2148431735.jpg?semt=ais_hybrid&w=740" alt="">
+                <img src="https://img.freepik.com/free-vector/background-realistic-abstract-technology-particle_23-2148431735.jpg?semt=ais_hybrid&w=740" alt="Consultoria em Tecnologia">
                 <div class="card-content">
-                    <h4>Desenvolvimento de Aplicativos.</h4>
-                    <p>Transformo suas ideias em aplicativos funcionais.</p>
+                    <h4>Consultoria em Tecnologia da Informação para otimização de processos</h4>
+                    <p>Ajudo sua empresa a melhorar processos através da tecnologia.</p>
                     <a href="#">
                         Saiba mais 
-                        <span class="material-symbols-outlined">
-                        chevron_right
-                        </span>
+                        <i class="fas fa-chevron-right"></i>
                     </a>
                 </div>
             </div>
             <div class="card">
-                <img src="https://img.freepik.com/free-vector/background-realistic-abstract-technology-particle_23-2148431735.jpg?semt=ais_hybrid&w=740" alt="">
+                <img src="https://img.freepik.com/free-vector/background-realistic-abstract-technology-particle_23-2148431735.jpg?semt=ais_hybrid&w=740" alt="Criação de Sites">
                 <div class="card-content">
-                    <h4>Desenvolvimento de Aplicativos.</h4>
-                    <p>Transformo suas ideias em aplicativos funcionais.</p>
+                    <h4>Criação de Sites Responsivos com Design Moderno e Atraente</h4>
+                    <p>Desenvolvo sites que se adaptam a qualquer dispositivo, melhorando a experiência do usuário.</p>
                     <a href="#">
                         Saiba mais 
-                        <span class="material-symbols-outlined">
-                        chevron_right
-                        </span>
+                        <i class="fas fa-chevron-right"></i>
                     </a>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="sobre"></section>
-    <section id="projetos"></section>
-    <section id="depoimentos"></section>
-    <section id="contato"></section>
-    <footer></footer>
+    <section id="sobre">
+        <div class="sobre-content">
+            <h3>Por que escolher um profissional de programação?</h3>
+            <p>Contratar um profissional de programação traz segurança e eficiência ao seu projeto. Com anos de experiência, crio resultados que superam suas expectativas.</p>
+            
+            <div class="benefits">
+                <div class="benefit">
+                    <i class="fas fa-cogs"></i>
+                    <h4>Experiência Comprovada</h4>
+                    <p>Atendimento de qualidade em projetos complexos garantindo que suas metas sejam alcançadas.</p>
+                </div>
+                
+                <div class="benefit">
+                    <i class="fas fa-handshake"></i>
+                    <h4>Confiabilidade Total</h4>
+                    <p>Compromisso com prazos e entregas, transparência e comunicação do seu projeto.</p>
+                </div>
+            </div>
+            
+            <a href="#" class="btn">Saiba mais</a>
+        </div>
+        
+        <div class="sobre-img">
+            <img src="https://img.freepik.com/free-vector/background-realistic-abstract-technology-particle_23-2148431735.jpg?semt=ais_hybrid&w=740" alt="Profissional de programação">
+        </div>
+    </section>
+
+    <section id="projetos">
+        <h3>Entenda como transformamos suas ideias em projetos de sucesso.</h3>
+        
+        <div class="projetos-grid">
+            <div class="projeto-card">
+                <div class="projeto-img">
+                    <img src="https://img.freepik.com/free-vector/background-realistic-abstract-technology-particle_23-2148431735.jpg?semt=ais_hybrid&w=740" alt="Processo simples">
+                </div>
+                <div class="projeto-content">
+                    <h4>Nosso processo é simples e eficaz, do início ao fim.</h4>
+                    <p>Começamos com uma conversa para entender suas necessidades e objetivos.</p>
+                    <a href="#">
+                        Saiba mais 
+                        <i class="fas fa-chevron-right"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="projeto-card">
+                <div class="projeto-img">
+                    <img src="https://img.freepik.com/free-vector/background-realistic-abstract-technology-particle_23-2148431735.jpg?semt=ais_hybrid&w=740" alt="Acompanhamento">
+                </div>
+                <div class="projeto-content">
+                    <h4>Acompanhamos cada etapa para garantir a sua satisfação total.</h4>
+                    <p>Após a definição do projeto, iniciamos o desenvolvimento com total transparência.</p>
+                    <a href="#">
+                        Iniciar 
+                        <i class="fas fa-chevron-right"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="projeto-card">
+                <div class="projeto-img">
+                    <img src="https://img.freepik.com/free-vector/background-realistic-abstract-technology-particle_23-2148431735.jpg?semt=ais_hybrid&w=740" alt="Entrega do projeto">
+                </div>
+                <div class="projeto-content">
+                    <h4>Entregamos o projeto final com suporte e acompanhamento contínuo.</h4>
+                    <p>Estamos sempre disponíveis para ajustes e feedback.</p>
+                    <a href="#">
+                        Conversar 
+                        <i class="fas fa-chevron-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="depoimentos">
+        <h3>Depoimentos de Clientes</h3>
+        <p>Veja o que nossos clientes têm a dizer!</p>
+        
+        <div class="depoimentos-grid">
+            <div class="depoimento-card">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
+                <div class="client-info">
+                    <h4>João Silva</h4>
+                    <p>Gerente, Tech Solutions</p>
+                </div>
+            </div>
+            
+            <div class="depoimento-card">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
+                <div class="client-info">
+                    <h4>Maria Oliveira</h4>
+                    <p>Diretora, InnoTech</p>
+                </div>
+            </div>
+            
+            <div class="depoimento-card">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
+                <div class="client-info">
+                    <h4>Pedro Gonzales</h4>
+                    <p>Diretor, Computa Ltda</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato">
+        <h3>Entre em contato</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        
+        <div class="contato-methods">
+            <div class="contato-method">
+                <i class="fas fa-envelope"></i>
+                <h4>E-mail</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in.</p>
+                <a href="mailto:info@portfolio.br">info@portfolio.br</a>
+            </div>
+            
+            <div class="contato-method">
+                <i class="fas fa-phone"></i>
+                <h4>Telefone</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in.</p>
+                <a href="tel:+551199999999">+55 (11) 99999-9999</a>
+            </div>
+            
+            <div class="contato-method">
+                <i class="fas fa-map-marker-alt"></i>
+                <h4>Endereço</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in.</p>
+                <address>Avenida Paulista, 1234, São Paulo, SP Brasil</address>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="logo">
+                <i class="fas fa-code"></i>
+            </div>
+            <div class="copyright">
+                <p>© 2025 Direitos Reservados. Criado por Robson William.</p>
+            </div>
+        </div>
+    </footer>
+
 </body>
 </html>
